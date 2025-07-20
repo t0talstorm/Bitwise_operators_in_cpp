@@ -26,7 +26,7 @@ This program takes a number and a bit position from the user, and then toggles t
 - The `1 << (set - 1)` part creates a mask with a `1` at the desired bit location.
 - Applying XOR with this mask flips that particular bit if it was `0`, it becomes `1`; if it was `1`, it becomes `0`.
   
-This is useful when you want to toggle a bit rather than strictly setting it to 1 or resetting it to 0.
+This is useful when you want to toggle a bit rather than strictly setting it to `1` or resetting it to `0`.
 
 ## Conclusion:
 Through this experiment, we successfully performed various bitwise operations and learned how to directly set or clear individual bits within a binary number using logical operators.
